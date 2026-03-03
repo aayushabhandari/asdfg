@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Cakes</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff5f8;
+}
+
+header {
+    background-color: #ff4d88;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ffe6f0;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background: #ff99bb;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #ff4d88;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact {
+    background: #ffe6f0;
+    padding: 30px;
+    text-align: center;
+}
+
+footer {
+    background: #ff4d88;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Sweet <span>Cakes</span> 🍰</div>
+    <p>Best Cake Shop in Town</p>
+</header>
+
+<nav>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+    <a href="#location">Location</a>
+</nav>
+
+<section id="products" class="products">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1599785209707-28e3e1b0a6b8" alt="Chocolate Cake">
+        <h3>Chocolate Cake</h3>
+        <p class="price">₹500</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1601979031925-424e53b6caaa" alt="Strawberry Cake">
+        <h3>Strawberry Cake</h3>
+        <p class="price">₹600</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1589308078054-8327c96caa65" alt="Vanilla Cake">
+        <h3>Vanilla Cake</h3>
+        <p class="price">₹450</p>
+    </div>
+
+</section>
+
+<section id="location" class="contact">
+    <h2>📍 Our Location</h2>
+    <p>Sweet Cakes Bakery, India</p>
+
+    <!-- Google Map Embed (Change location if needed) -->
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.01943704579!2d-122.41941548468141!3d37.7749297797596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5b2d5c3b%3A0x1234567890abcdef!2sBakery!5e0!3m2!1sen!2sin!4v1610000000000"
+        width="100%" 
+        height="250" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+</section>
+
+<section id="contact" class="contact">
+    <h2>📞 Contact Us</h2>
+    <p><strong>Phone:</strong> 9745340190</p>
+    <p><strong>Email:</strong> sweetcakes@gmail.com</p>
+    <p><strong>Facebook:</strong> Sweetcakes</p>
+</section>
+
+<footer>
+    © 2026 Sweet Cakes | All Rights Reserved
+</footer>
+
+</body>
+</html>
